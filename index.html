@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de films</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .movie {
+            margin: 20px 0;
+			margin-bottom: 30px;
+            text-align: center;
+        }
+        .movie-title {
+            font-size: 20px;
+            font-weight: bold;
+			margin-bottom: 5px;
+        }
+		.movie img {
+			max-width: 100%;
+			max-height: 250px; /* Taille maximale, ajustée automatiquement */
+			object-fit: contain; /* Maintient les proportions sans couper l'image */
+			background-color: black; /* Ajoute un fond noir pour remplir l'espace vide */
+			padding: 5px; /* Ajoute une marge autour de l'image */
+			border-radius: 10px;
+		}
+        @media (min-width: 768px) {
+            .movie-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Film 1 -->
+        <div class="movie">
+            <div class="movie-title">Retour vers le futur (1985)</div>
+            <img src="faux-lien-vers-l-affiche-retour-vers-le-futur.jpg" alt="Affiche Retour vers le futur">
+        </div>
+        <!-- Film 2 -->
+        <div class="movie">
+            <div class="movie-title">Le Seigneur des Anneaux : La Communauté de l'Anneau (2001)</div>
+            <img src="faux-lien-vers-l-affiche-2.jpg" alt="Affiche Le Seigneur des Anneaux">
+        </div>
+        <!-- Film 3 -->
+        <div class="movie">
+            <div class="movie-title">Inception (2010)</div>
+            <img src="faux-lien-vers-l-affiche-3.jpg" alt="Affiche Inception">
+        </div>
+        <!-- Film 4 -->
+        <div class="movie">
+            <div class="movie-title">Matrix (1999)</div>
+            <img src="faux-lien-vers-l-affiche-4.jpg" alt="Affiche Matrix">
+        </div>
+        <!-- Film 5 -->
+        <div class="movie">
+            <div class="movie-title">Jurassic Park (1993)</div>
+            <img src="faux-lien-vers-l-affiche-5.jpg" alt="Affiche Jurassic Park">
+        </div>
+        <!-- Film 6 -->
+        <div class="movie">
+            <div class="movie-title">Titanic (1997)</div>
+            <img src="faux-lien-vers-l-affiche-6.jpg" alt="Affiche Titanic">
+        </div>
+        <!-- Film 7 -->
+        <div class="movie">
+            <div class="movie-title">Star Wars: Un nouvel espoir (1977)</div>
+            <img src="faux-lien-vers-l-affiche-7.jpg" alt="Affiche Star Wars">
+        </div>
+        <!-- Film 8 -->
+        <div class="movie">
+            <div class="movie-title">Gladiator (2000)</div>
+            <img src="faux-lien-vers-l-affiche-8.jpg" alt="Affiche Gladiator">
+        </div>
+        <!-- Film 9 -->
+        <div class="movie">
+            <div class="movie-title">Le Roi Lion (1994)</div>
+            <img src="faux-lien-vers-l-affiche-9.jpg" alt="Affiche Le Roi Lion">
+        </div>
+        <!-- Film 10 -->
+        <div class="movie">
+            <div class="movie-title">Forrest Gump (1994)</div>
+            <img src="faux-lien-vers-l-affiche-10.jpg" alt="Affiche Forrest Gump">
+        </div>
+        <!-- Film 11 -->
+        <div class="movie">
+            <div class="movie-title">Le Parrain (1972)</div>
+            <img src="faux-lien-vers-l-affiche-11.jpg" alt="Affiche Le Parrain">
+        </div>
+        <!-- Film 12 -->
+        <div class="movie">
+            <div class="movie-title">The Dark Knight (2008)</div>
+            <img src="faux-lien-vers-l-affiche-12.jpg" alt="Affiche The Dark Knight">
+        </div>
+		<!-- Film 20 -->
+        <div class="movie">
+            <div class="movie-title">Men in Black (1997)</div>
+            <img src="faux-lien-vers-l-affiche-men-in-black.jpg" alt="Affiche Men in Black">
+        </div>
+        <!-- Film 13 -->
+        <div class="movie">
+            <div class="movie-title">Pulp Fiction (1994)</div>
+            <img src="faux-lien-vers-l-affiche-13.jpg" alt="Affiche Pulp Fiction">
+        </div>
+        <!-- Film 14 -->
+        <div class="movie">
+            <div class="movie-title">Avatar (2009)</div>
+            <img src="faux-lien-vers-l-affiche-14.jpg" alt="Affiche Avatar">
+        </div>
+        <!-- Film 15 -->
+        <div class="movie">
+            <div class="movie-title">Fight Club (1999)</div>
+            <img src="faux-lien-vers-l-affiche-15.jpg" alt="Affiche Fight Club">
+        </div>
+        <!-- Film 16 -->
+        <div class="movie">
+            <div class="movie-title">Interstellar (2014)</div>
+            <img src="faux-lien-vers-l-affiche-16.jpg" alt="Affiche Interstellar">
+        </div>
+        <!-- Film 17 -->
+        <div class="movie">
+            <div class="movie-title">Les Évadés (1994)</div>
+            <img src="faux-lien-vers-l-affiche-17.jpg" alt="Affiche Les Évadés">
+        </div>
+        <!-- Film 18 -->
+        <div class="movie">
+            <div class="movie-title">Le Cinquième Élément (1997)</div>
+            <img src="faux-lien-vers-l-affiche-18.jpg" alt="Affiche Le Cinquième Élément">
+        </div>
+        <!-- Film 19 -->
+        <div class="movie">
+            <div class="movie-title">Alien (1979)</div>
+            <img src="faux-lien-vers-l-affiche-19.jpg" alt="Affiche Alien">
+        </div>
+
+        <!-- Film 21 -->
+        <div class="movie">
+            <div class="movie-title">Les Dents de la mer (1975)</div>
+            <img src="faux-lien-vers-l-affiche-21.jpg" alt="Affiche Les Dents de la mer">
+        </div>
+        <!-- Film 22 -->
+        <div class="movie">
+            <div class="movie-title">Avengers: Endgame (2019)</div>
+            <img src="faux-lien-vers-l-affiche-22.jpg" alt="Affiche Avengers: Endgame">
+        </div>
+        <!-- Film 23 -->
+        <div class="movie">
+            <div class="movie-title">Indiana Jones et la dernière croisade (1989)</div>
+            <img src="faux-lien-vers-l-affiche-23.jpg" alt="Affiche Indiana Jones">
+        </div>
+        <!-- Film 24 -->
+        <div class="movie">
+            <div class="movie-title">La La Land (2016)</div>
+            <img src="faux-lien-vers-l-affiche-24.jpg" alt="Affiche La La Land">
+        </div>
+        <!-- Film 25 -->
+        <div class="movie">
+            <div class="movie-title">Les Gardiens de la Galaxie (2014)</div>
+            <img src="faux-lien-vers-l-affiche-25.jpg" alt="Affiche Les Gardiens de la Galaxie">
+        </div>
+        <!-- Film 26 -->
+        <div class="movie">
+            <div class="movie-title">Toy Story (1995)</div>
+            <img src="faux-lien-vers-l-affiche-26.jpg" alt="Affiche Toy Story">
+        </div>
+        <!-- Film 27 -->
+        <div class="movie">
+            <div class="movie-title">Rocky (1976)</div>
+            <img src="faux-lien-vers-l-affiche-27.jpg" alt="Affiche Rocky">
+        </div>
+        <!-- Film 28 -->
+        <div class="movie">
+            <div class="movie-title">Blade Runner (1982)</div>
+            <img src="faux-lien-vers-l-affiche-28.jpg" alt="Affiche Blade Runner">
+        </div>
+        <!-- Film 29 -->
+        <div class="movie">
+            <div class="movie-title">Shutter Island (2010)</div>
+            <img src="faux-lien-vers-l-affiche-29.jpg" alt="Affiche Shutter Island">
+        </div>
+        <!-- Film 30 -->
+        <div class="movie">
+            <div class="movie-title">Le Fabuleux Destin d'Amélie Poulain (2001)</div>
+            <img src="faux-lien-vers-l-affiche-30.jpg" alt="Affiche Amélie Poulain">
+        </div>
+    </div>
+</body>
+</html>
